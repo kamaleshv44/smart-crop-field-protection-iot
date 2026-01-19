@@ -1,29 +1,30 @@
+# Smart Crop Field Protection and Automated Irrigation System
 
-# Smart Crop Field Protection & Automated Irrigation
+Mini project (2023-2024) for sensor-based crop monitoring, intrusion prevention, and auto-irrigation.
 
-**Description:**  
-This project is an IoT-based smart irrigation system designed to automate water flow in agricultural fields. It includes real-time soil moisture sensing, water pump control, and security features to protect the field from intrusions.
+## Overview
+- **Problem**: Manual farming leads to water waste and crop damage.
+- **Solution**: Sensors for soil moisture, intruders; automated pumps/buzzers.
+- **Team**: Naresh S, Kamalesh V, Nandan P.
 
-**Tech Stack:**  
-- Arduino UNO  
-- Soil Moisture Sensor  
-- Ultrasonic Sensor  
-- Relay Module  
-- Water Pump  
-- Buzzer  
-- Jumper wires & Breadboard
+## Implementation
+- **Hardware**: Sensors (e.g., soil moisture, PIR), Actuators (pumps, alarms).
+- **Code**: C++ for logic (e.g., `irrigation_control.cpp`).
+- **Acknowledgements**: Thanks to guides Dr. Ravi Kumar H C, etc.
 
-**Features:**  
-- Automatic irrigation based on soil moisture level  
-- Field protection using motion detection  
-- Buzzer alert system  
-- Low power consumption design
+## Artifacts
+- **Certificate**: ![Certificate](images/mini-project-certificate.png)
+- **Cover Page**: ![Cover](images/cover-page.png)
+- Full Report: [mini-project.pdf](docs/mini-project.pdf)
 
-**How it Works:**  
-The system continuously checks soil moisture. If the soil is dry, it activates the water pump. If an obstacle is detected (like an animal or human), a buzzer is triggered to scare it away and send a alert message to the owner of the filed via sms.
+## Results
+- Efficient water use; real-time alerts.
 
-**Circuit Diagram:**  
-circuit diagram available in 'circuit_diagram' image file.
+## Skills Demonstrated
+- Sensor Automation, Embedded Programming, Team Collaboration.
 
-**Code:**  
-The Arduino code is available in `main.ino` file.
+## How to Run
+1. Clone repo.
+2. Compile `irrigation_control.cpp` with Arduino IDE.
+
+License: MIT
