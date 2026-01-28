@@ -38,6 +38,9 @@ The system is built around a **distributed IoT edge architecture**:
 - Local and remote alert mechanisms
 - Operator notification on threshold violations
 
+
+![Block diagram, outputs](assets/)
+
 ---
 
 ## Hardware Components
