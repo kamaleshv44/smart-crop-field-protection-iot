@@ -65,6 +65,7 @@ The system is built around a **distributed IoT edge architecture**:
 - **False-positive reduction** in intrusion detection
 - **Power-efficient operation** for long-term field usage
 - **Modular firmware structure** for easy feature expansion
+- This project showcases practical IoT deployment for real-world agricultural automation.
 
 ---
 
